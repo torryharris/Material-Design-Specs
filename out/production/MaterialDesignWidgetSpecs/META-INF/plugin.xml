@@ -1,0 +1,39 @@
+<idea-plugin version="2">
+    <id>com.thbs.materialdesign</id>
+    <name>Material Design Specs</name>
+    <version>1.2</version>
+    <vendor email="torryharriscoe@gmail.com" url="http://www.thbs.com/">Torry Harris Business Solution
+    </vendor>
+
+    <description><![CDATA[
+     Android Studio & IntelliJ Plugin for Android UI widgets with Material Design
+     specifications.<br>This plugin helps to drag and drop the
+     generated code to our XML layouts.
+     ]]></description>
+
+    <change-notes><![CDATA[
+    1.0:First version released.<br>
+    1.0.1:Fixed compatibility to make available for Android Studio.<br>
+    1.2:Fixed issue related with rating bar image when save button is clicked.<br>
+     ]]>
+    </change-notes>
+
+    <idea-version since-build="141.0"/>
+
+    <depends>com.intellij.modules.lang</depends>
+
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="MyPlugin" class="com.thbs.materialdesign.MaterialDesignWidgetSpecsAction" text="Material Design Specs"
+                description="Demo pugin for material design guidelines" icon="/plugin_icon.png">
+            <add-to-group group-id="ViewMenu" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt D"/>
+        </action>
+    </actions>
+
+</idea-plugin>

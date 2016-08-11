@@ -1,0 +1,40 @@
+<idea-plugin version="2">
+  <id>com.thbs.materialdesign</id>
+  <name>Material Design Widget Specification</name>
+  <version>1.0</version>
+  <vendor email="torryharriscoe@gmail.com"
+          url="http://www.yourcompany.com">Material Design Widget Specification</vendor>
+
+  <description><![CDATA[
+     Android Studio & IntelliJ Plugin for Material Design Widget Specifications.
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="141.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="MyPlugin" class="com.thbs.materialdesign.Design" text="MyPlugin"
+            description="Demo pugin for material design guidelines" icon="/plugin.png">
+      <add-to-group group-id="ViewMenu"  anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt D"/>
+    </action>
+  </actions>
+
+</idea-plugin>
