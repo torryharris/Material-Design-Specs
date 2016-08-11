@@ -19,7 +19,7 @@ To get the widgets into android studio you can drag and drop the generated code,
 
 ### On MAC: 
 
-  1. Preference >Plugins >Install plugin from disk... Select MaterialDesignSpecs.jar above.
+      1. Preference >Plugins >Install plugin from disk... Select MaterialDesignSpecs.jar above.
   
 
 ### On Linux or Windows: 
