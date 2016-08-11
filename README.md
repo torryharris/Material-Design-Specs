@@ -15,7 +15,7 @@ To get the widgets into android studio you can drag and drop the generated code,
 
 ##  Manually:
      
-      Download the  [MaterialDesignSpecs.jar]()
+      Download the  [MaterialDesignSpecs.jar](https://github.com/torryharris/Material-Design-Specs/blob/master/MaterialDesignWidgetSpecs.jar)
 
 ### On MAC: 
 
