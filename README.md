@@ -24,16 +24,16 @@ To get the widgets into android studio you can drag and drop the generated code,
 
 ### On Linux or Windows: 
 
-  1. File >Settings >IDE Settings >Plugins >Insatll plugin from disk... Select MaterialDesignSpecs.jar above.
+      1. File >Settings >IDE Settings >Plugins >Insatll plugin from disk... Select MaterialDesignSpecs.jar above.
 
-  2. Restart IntelliJ/Android Studio to activate plugin. 
+      2. Restart IntelliJ/Android Studio to activate plugin. 
   
 ## Install IntelliJ Plugin Repositories:
 
 ### On MAC:
  
-  1. Preference > Plugins > Browse repositories, then search material.
+      1. Preference > Plugins > Browse repositories, then search material.
 
 ### On Linux or Windows:
  
-  1. File>Settings..>IDE settings>Plugins>Browse repositories, then search MaterialDesignSpecs.
+      1. File>Settings..>IDE settings>Plugins>Browse repositories, then search MaterialDesignSpecs.
