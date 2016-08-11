@@ -13,7 +13,7 @@ To get the widgets into android studio you can drag and drop the generated code,
 
 # Installation:
 
- ##  Manually:
+##  Manually:
      
       Download the  [MaterialDesignSpecs.jar]()
 
